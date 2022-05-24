@@ -1,0 +1,114 @@
+body {
+    font-family: 'Montserrat';
+    margin: 0;
+}
+
+.Site-Name {
+    display: inline-block;
+    padding-top: 20px; 
+    padding-left: 80px;
+}
+
+.buttons {
+    display: inline-block;
+    padding-top: 20px;
+    position: absolute;
+    right: 5%;
+}
+
+.Subscribe-Button {
+	background-color:#ffffff;
+	border-radius:40px;
+	border:1px solid #000000;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.Subscribe-Button:hover {
+	background-color:#c9ccc8;
+}
+.Subscribe-Button:active {
+	position:relative;
+	top:1px;
+}
+
+.Generate-Button {
+	background-color:#000000;
+	border-radius:40px;
+	border:1px solid #000000;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.Generate-Button:hover {
+	background-color:#646b61;
+}
+.Generate-Button:active {
+	position: relative;
+	top: 1px;
+}
+
+hr {
+    width: 95%;
+}
+
+.nav-list {
+    list-style: none;
+}
+
+li {
+    display: inline-block;
+}
+
+li a {
+    text-decoration: none;
+    padding: 10px 10px;
+}
+
+.article-body-first {
+    margin-left: 6.25rem;
+    margin-right: 6.25rem;
+}
+
+p {
+    text-align: justify;
+}
+
+.dotted-line {
+    border: dotted #879191 5px;
+    border-bottom: none;
+    width: 10%;
+}
+
+.wallpaper-00 {
+    float: left;
+    width: 250px;
+    height: 150px;
+    padding: 0 10px 0 0;
+}
+
+.article-body-second {
+    margin-left: 6.25rem;
+    margin-right: 6.25rem;
+}
+
+/* BUTTOM CONTAINER */
+
+.bottom-container {
+    background-color: #d0d1d1;
+    padding: 30px;
+}
+
+.copyright {
+    font-size: 0.75rem;
+}

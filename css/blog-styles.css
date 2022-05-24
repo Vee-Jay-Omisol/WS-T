@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Cover */
+
+.name {
+	text-align: center;
+	font-family: 'Roboto';
+	font-weight: 900;
+	font-size: 3rem;
+	padding-top: 60px;
+	color: #EC994B;
+	letter-spacing: 3px;
+}
+
+.desc {
+	text-align: center;
+	font-family: 'Roboto';
+	font-weight: 100;
+	padding-top: 30px;
+	color: grey;
+}
+
+.image {
+	text-align: center;
+	height: 250px;
+	width: 250px;
+	margin-top: 80px;
+}
+
+.center-img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.description {
+	margin-top: 40px;
+	margin-right: 20%;
+	margin-left: 20%;
+	line-height: 3rem;
+	color: #fff;
+	font-family: 'Roboto';
+	text-align: center;
+}
+
+/* Subcribe Button */
+
+.Subscribe-Button {
+	background-color:#ffffff;
+	border-radius:10px;
+	display:inline-block;
+	cursor:pointer;
+	color:#EC994B;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+	margin-left: 580px;
+	margin-top: 20px;
+	
+}
+.Subscribe-Button:hover {
+	background-color: #fff;
+}
+.Subscribe-Button:active {
+	position:relative;
+	top:1px;
+}
+
+/* Blogs List */
+
+.blog-list {
+	padding-top: 100px;
+	margin-left: 200px;
+}
+
+h2 {
+	text-align: center;
+}
+
+.box {
+	width: 300px;
+	border-bottom: 20px solid #EC994B;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+.box h2 {
+	color: #fff;
+	background: #EC994B;
+	padding: 10px 20px;
+	font-size: 20px;
+	font-weight: 700;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.box ul li {
+	list-style: none;
+	padding: 10px;
+	width: 100%;
+	background: #fff;
+	box-shadow: 0 5px 25px rgba(0,0,0,0.1);
+	transition: transform 0.5s;
+}
+
+.box ul {
+	position: relative;
+	background: #fff;
+}
+
+.box ul:hover li {
+	opacity: 0.2;
+}
+
+.box ul li:hover {
+	transform: scale(1.1);
+	z-index: 100;
+	background: #EC994B;
+	box-shadow: 0 5px 25px rgba(0,0,0,0,0.2);
+	color: #fff;
+	opacity: 1;
+}
+
+.box ul li span {
+	width: 20px;
+	height: 20px;
+	text-align: center;
+	line-height: 20px;
+	background: #EC994B;
+	color: #fff;
+	display: inline-block;
+	border-radius: 50%;
+	margin-right: 10px;
+	font-size: 12px;
+	font-weight: 600;
+	transform: translateY(-20px);
+}
+
+.box ul li:hover span {
+	background: #fff;
+	color: #EC994B;
+}
+
+.blog-gif {
+	margin-left: -150px;
+}
+
+.option {
+	text-decoration: none;
+}
+
+.opt-col {
+	color: gray;
+}
+
+/* Community */
+
+.community {
+	background-color: #EC994B;
+}
+
+.community h2 {
+	font-family: 'Montserrat';
+	font-weight: 900;
+	color: #fff;
+	font-size: 3rem;
+	padding-top: 30px;
+}
+
+.community p {
+	text-align: center;
+	color: gray;
+}
+
+.maintenance {
+	width: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
